@@ -1,0 +1,16 @@
+{
+  "name": "npm-module-create",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/webpack-numbers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Suraj Keshri <surajkeshri@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lodash": "^4.17.11",
+    "webpack": "^4.27.1"
+  }
+}
