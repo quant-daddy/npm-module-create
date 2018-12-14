@@ -13,4 +13,4 @@ export function wordToNum(word) {
   }, -1);
 }
 
-console.log(numToWord(2));
+// console.log(numToWord(2));

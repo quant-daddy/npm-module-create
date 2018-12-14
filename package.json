@@ -6,11 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skk2142/npm-module-create.git"
+  },
   "keywords": [],
   "author": "Suraj Keshri <surajkeshri@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "lodash": "^4.17.11",
     "webpack": "^4.27.1"
-  }
+  }  
 }

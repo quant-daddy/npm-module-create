@@ -2,11 +2,12 @@ const path = require('path');
 
 module.exports = {
   entry: './src/index.js',
+  mode: 'development',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'webpack-numbers.js',
     library: 'webpackNumbers',
-    libraryTarget: 'umd', // 'var', 'this', 'window', 
+    libraryTarget: 'umd', // 'var', 'this', 'window',
   },
   externals: {
     lodash: {
